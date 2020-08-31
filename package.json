@@ -12,6 +12,7 @@
     "body-parser": "^1.19.0",
     "dexie": "^3.0.1",
     "express": "^4.17.1",
-    "http": "0.0.1-security"
+    "http": "0.0.1-security",
+    "ws": "^7.3.1"
   }
 }
