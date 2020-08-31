@@ -1,0 +1,17 @@
+{
+  "name": "virtual-community",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Kirill Novik",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dexie": "^3.0.1",
+    "express": "^4.17.1",
+    "http": "0.0.1-security"
+  }
+}

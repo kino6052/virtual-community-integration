@@ -1,0 +1,7 @@
+*
+
+!*.html
+!package.json
+!.gitignore
+!index.js
+!bundle.js
