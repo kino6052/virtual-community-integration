@@ -1,7 +1,1 @@
-*
-
-!*.html
-!package.json
-!.gitignore
-!index.js
-!bundle.js
+node_modules/
