@@ -12,17 +12,16 @@
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/TextureFromStreamBuild.json", {onProgress: UnityProgress});
     </script>
   </head>
-  <body>
+  <body style="overflow: hidden;">
     <div class="webgl-content">
-      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div id="unityContainer" style="width: 100vw; height: 100vh;"></div>
       <div class="footer">
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">TextureFromStream</div>
+        <div class="title">Virtual Community</div>
       </div>
     </div>
     <div id="app">
-      <h1>Realtime communication with WebRTC</h1>
       <div id="videos"></div>
       <div id="tv"></div>
     </div>
